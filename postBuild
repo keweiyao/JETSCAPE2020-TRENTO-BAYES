@@ -1,2 +1,4 @@
 wget --no-check-certificate https://webhome.phy.duke.edu/~wk42/jetscape/trento-data.h5
 wget --no-check-certificate https://webhome.phy.duke.edu/~wk42/jetscape/validation-data.h5
+wget --no-check-certificate https://webhome.phy.duke.edu/~wk42/jetscape/chains.h5
+
