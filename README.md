@@ -13,7 +13,18 @@ We provided three options to install the dependences.
 2. Execute the downloaded installer, and follow the instructions. 
 It will ask you where to put conda (Default is `$HOME`).
 3. Clone the current repository to a directroy, for example `$HOME/JS2020`.
-4. Create conda virtual enciroment
+
+```
+mkdir $HOME/JS2020 && cd $HOME/JS2020
+git clone https://github.com/keweiyao/JETSCAPE2020-TRENTO-BAYES.git
+```
+Using the script postBuild to down the date files 
+```
+cd $HOME/JS2020/JETSCAPE2020-TRENTO-BAYES
+bash postBuild
+```
+
+4. Create conda virtual enciroment.
 
 ```
 conda create -n <name> numpy matplotlib jupyter scikit-learn h5py python=3.7
@@ -40,6 +51,7 @@ From the prompt of the browser, click and open the file `trento-bayes.ipynb`
 
 8. Move to the first block, press `Shift+Enter` to see if you can run the first two or three blocks successfully. 
 Then you are good to go!
+
 
 ### Option 2. Using online Binder environment
 
