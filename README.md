@@ -5,7 +5,7 @@
 These examples runs with `python3` on a `Jupyter Notebook`. 
 Please check [requirements.txt](requirements.txt).
 
-We provided three options to install the dependences.
+We provided two options to install the dependences or run the code within an online session.
 
 ### Option 1. Conda virtual enviroment
 
@@ -27,17 +27,21 @@ bash postBuild
 4. Create conda virtual enciroment.
 
 ```
-conda create -n <name> numpy matplotlib jupyter scikit-learn h5py python=3.7
+conda env create -f environment.yml
 ```
-you can use `<name>` like `JS-Bayes` for the enviroment
+This shoud create an virtual environment called `trento-bayes`. You can check if it exists and its location by `conda env list`. The required libraries are installed in this environment (these libraries are listed in `environment.yml`, except for `emcee` package). If you want to delete this environment after the lecture, you can do `conda env remove -n <name-of-environment>`.
 
-5. Activate the virtual environment by 
+5. To activate the environment
 
 ```
-source activate <name>
+conda activate trento-bayes
+```
+To deactivate the enviornment
+```
+conda deactivate
 ```
 
-6. Install other python packages,
+6. Activate the enviroment, and install the `emcee` package for MCMC using `pip` command
 
 ```
 pip install emcee
@@ -65,6 +69,4 @@ The disadvantages: the computational power of the binder server is limited.
 So for some examples with significant amount of computation, it will be too long for the lecture. 
 Therefore, I also uploaded pre-calcualted results for these examples that you can simply load and study.
 Another disadvantage is that is you internet connection is unstable, sometimes you need to restart the server again.
-
-### Option 3. Use local `python` with `pip`.
 
