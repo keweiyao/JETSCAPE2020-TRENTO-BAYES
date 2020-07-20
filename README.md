@@ -1,4 +1,4 @@
-# TRENTo/Bayesian Analysis for the JETSCAPE Online Summer School 2020.
+# TRENTo/Bayesian Analysis for the [JETSCAPE Online Summer School 2020](https://indico.bnl.gov/event/8660/).
 
 ## Prerequisite and Installation
 
