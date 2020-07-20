@@ -61,7 +61,7 @@ Simple check the following link and wait for the environment to build and load.
 [Binder link](https://mybinder.org/v2/gh/keweiyao/JETSCAPE2020-TRENTO-BAYES/master ).
 The advantage is that you don't need to install the dependence on your computer. 
 The disadvantages: 
-1. The initial build of the image make take ~ 5 mins.
+1. The initial build of the image can take upto 5 mins.
 2. Require fast and stable internet connection. Once you lost connection, you will need to restart.
 3. The computational power of the binder server is limited. So for some examples with significant amount of computation, the computing time can be too long for the lecture. Therefore, I also uploaded pre-calculated results for these examples that you can simply load and study.
 
