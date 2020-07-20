@@ -5,7 +5,7 @@
 These examples run with `python3` on a `Jupyter Notebook`. 
 We provided two options to either install the dependencies using [Anaconda](https://www.anaconda.com/) or simply run the code from an online session supported by [Binder](https://mybinder.org/).
 
-### Option 1. Conda virtual environment
+### Option 1. Conda virtual environment (recommended)
 
 1. Download `Miniconda` (a free minimal version of Anaconda) for Python 3.7 from [here](https://docs.conda.io/en/latest/miniconda.html). Remember to choose `Python3` (3.7) and the correction installer for your operating system.
 2. Execute the downloaded installer, and follow the instructions to install.
