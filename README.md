@@ -8,12 +8,15 @@ We provided two options to either install the dependencies using [Anaconda](http
 ### Option 1. Conda virtual environment (recommended)
 
 1. Download `Miniconda` (a free minimal version of Anaconda) for Python 3.7 from [here](https://docs.conda.io/en/latest/miniconda.html). Remember to choose `Python3` (3.7) and the corrected installer for your operating system.
+
 2. Execute the downloaded installer, and follow the instructions to install.
 It will ask you where to put conda (Default is `$HOME`). After the installation, `conda` command can be called in shell (for Mac / Linux). For Windows, you can find `anaconda prompt` from your start menu to open a shell environment.
+
 3. Clone the current repository to a directory, for example `$HOME/JS2020`.
 ```
 mkdir $HOME/JS2020 && cd $HOME/JS2020 git clone https://github.com/keweiyao/JETSCAPE2020-TRENTO-BAYES.git 
 ```
+
 4. Using the script `postBuild` to down the date files  
 ```
 cd $HOME/JS2020/JETSCAPE2020-TRENTO-BAYES 
@@ -35,11 +38,13 @@ To deactivate the environment
 ```
 conda deactivate 
 ```
+
 7. Within the folder that contains the examples, open jupyter notebook, 
 ```
 jupyter notebook 
 ```
 From the prompt of the browser, click and open the file `trento-bayes.ipynb`
+
 8. Move to the first block, press `Shift+Enter` to see if you can run the first two or three blocks successfully. 
 Then you are good to go!
 
