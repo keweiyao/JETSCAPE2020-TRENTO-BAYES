@@ -7,36 +7,36 @@ We provided two options to either install the dependencies using [Anaconda](http
 
 ### Option 1. Conda Virtual Environment (Recommended)
 
-#### A. Download and install `Conda`
+1. Download and install `Conda`
 
-A.1. Download `Miniconda` (a free minimal version of Anaconda) for Python 3.7 from [here](https://docs.conda.io/en/latest/miniconda.html). Remember to choose `Python3` (3.7) and the corrected installer for your operating system.
+1.1. Download `Miniconda` (a free minimal version of Anaconda) for Python 3.7 from [here](https://docs.conda.io/en/latest/miniconda.html). Remember to choose `Python3` (3.7) and the corrected installer for your operating system.
 
-A.2. Execute the downloaded installer, and follow the instructions to install.
+1.2. Execute the downloaded installer, and follow the instructions to install.
 It will ask you where to put conda (Default is `$HOME`). After the installation, `conda` command can be called in shell (for Mac / Linux). For Windows, you can find `anaconda prompt` from your start menu to open a shell environment.
 
-#### B. Clone the repository and download data files
+2. Clone the repository and download data files
 
-B.1. Clone the current repository to a directory, for example `$HOME/JS2020`.
+2.1. Clone the current repository to a directory, for example `$HOME/JS2020`.
 ```
 mkdir $HOME/JS2020 && cd $HOME/JS2020 git clone https://github.com/keweiyao/JETSCAPE2020-TRENTO-BAYES.git 
 ```
 
-B.2. Using the script `postBuild` to down the data  
+2.2. Using the script `postBuild` to down the data  
 ```
 cd $HOME/JS2020/JETSCAPE2020-TRENTO-BAYES 
 bash postBuild 
 ```
 Now `ls` and you should see the downloaded folder `ModelData/`.
 
-#### C. Create conda virtual environment and test the notebook
+3. Create conda virtual environment and test the notebook
 
-C.1. Create conda virtual environment.
+3.1. Create conda virtual environment.
 ```
 conda env create -f environment.yml 
 ```
 This should create a virtual environment called `trento-bayes`. You can check if it exists and its location by `conda env list`. The required libraries are installed in this environment (these libraries are listed in `environment.yml`, except for `emcee` package, which is listed in the `pip` `requirements.txt`). If you want to delete this environment after the lecture, you can do `conda env remove -n <name-of-environment>`.
 
-C.2. To activate the environment 
+3.2. To activate the environment 
 ```
 conda activate trento-bayes 
 ```
@@ -45,13 +45,13 @@ To deactivate the environment
 conda deactivate 
 ```
 
-C.3. Within the folder that contains the examples, open jupyter notebook, 
+3.3. Within the folder that contains the examples, open jupyter notebook, 
 ```
 jupyter notebook 
 ```
 From the prompt of the browser, click and open the file `trento-bayes.ipynb`
 
-C.4. Move to the first block, press `Shift+Enter` to see if you can run the first two or three blocks successfully. 
+3.4. Move to the first block, press `Shift+Enter` to see if you can run the first two or three blocks successfully. 
 Then you are good to go!
 
 ### Option 2. Use Online Binder Environment
