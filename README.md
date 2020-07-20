@@ -32,7 +32,7 @@ To deactivate the environment
 ```
 conda deactivate 
 ```
-6. Within the folder that contains the examples, open jupyter notebook, 
+7. Within the folder that contains the examples, open jupyter notebook, 
 ```
 jupyter notebook 
 ```
