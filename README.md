@@ -21,9 +21,9 @@ bash postBuild
 ```
 4. Create conda virtual environment.
 ```
-conda env create -f conda-environ.yml 
+conda env create -f environment.yml 
 ```
-This should create a virtual environment called `trento-bayes`. You can check if it exists and its location by `conda env list`. The required libraries are installed in this environment (these libraries are listed in `environment.yml`, except for `emcee` package). If you want to delete this environment after the lecture, you can do `conda env remove -n <name-of-environment>`.
+This should create a virtual environment called `trento-bayes`. You can check if it exists and its location by `conda env list`. The required libraries are installed in this environment (these libraries are listed in `environment.yml`, except for `emcee` package, which is in the `pip` requirements). If you want to delete this environment after the lecture, you can do `conda env remove -n <name-of-environment>`.
 5. To activate the environment 
 ```
 conda activate trento-bayes 
@@ -32,11 +32,7 @@ To deactivate the environment
 ```
 conda deactivate 
 ```
-6. Activate the environment, and install the `emcee` package for MCMC using `pip` command 
-```
-pip install emcee 
-```
-7. Within the folder that contains the examples, open jupyter notebook, 
+6. Within the folder that contains the examples, open jupyter notebook, 
 ```
 jupyter notebook 
 ```
