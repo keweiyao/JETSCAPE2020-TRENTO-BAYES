@@ -14,17 +14,17 @@ It will ask you where to put conda (Default is `$HOME`). After the installation,
 ```
 mkdir $HOME/JS2020 && cd $HOME/JS2020 git clone https://github.com/keweiyao/JETSCAPE2020-TRENTO-BAYES.git 
 ```
-Using the script `postBuild` to down the date files  
+4. Using the script `postBuild` to down the date files  
 ```
 cd $HOME/JS2020/JETSCAPE2020-TRENTO-BAYES 
 bash postBuild 
 ```
-4. Create conda virtual environment.
+5. Create conda virtual environment.
 ```
 conda env create -f environment.yml 
 ```
 This should create a virtual environment called `trento-bayes`. You can check if it exists and its location by `conda env list`. The required libraries are installed in this environment (these libraries are listed in `environment.yml`, except for `emcee` package, which is in the `pip` requirements). If you want to delete this environment after the lecture, you can do `conda env remove -n <name-of-environment>`.
-5. To activate the environment 
+6. To activate the environment 
 ```
 conda activate trento-bayes 
 ```
@@ -42,13 +42,11 @@ Then you are good to go!
 
 ### Option 2. Using online Binder environment
 
-Make sure you have fast and stable internet connection if you choose this option.
-
 This Binder environment holds online session of interactive `Jupyter notebook`. 
 Simple check the following link and wait for the environment to build and load.
 [Binder link](https://mybinder.org/v2/gh/keweiyao/JETSCAPE2020-TRENTO-BAYES/master ).
 The advantage is that you don't need to install the dependence on your computer. 
-The disadvantages: the computational power of the binder server is limited. 
-So for some examples with significant amount of computation, it will be too long for the lecture. 
-Therefore, I also uploaded pre-calculated results for these examples that you can simply load and study.
-Another disadvantage is that if your internet connection is unstable, sometimes you need to restart the server again.
+The disadvantages: 
+1. The initial build of the image make take ~ 5 mins.
+2. Require fast and stable internet connection. Once you lost connection, you will need to restart.
+3. The computational power of the binder server is limited. So for some examples with significant amount of computation, the computing time can be too long for the lecture. Therefore, I also uploaded pre-calculated results for these examples that you can simply load and study.
