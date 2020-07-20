@@ -3,15 +3,14 @@
 ## Pre-requisite and Installation
 
 These examples runs with `python3` on a `Jupyter Notebook`. 
-Please check [requirements.txt](requirements.txt).
 
-We provided two options to install the dependences or run the code within an online session.
+We provided two options to either install the dependences using [Anaconda](https://www.anaconda.com/) or simply run the code from an online session supported by [Binder](https://mybinder.org/).
 
 ### Option 1. Conda virtual enviroment
 
-1. Download Miniconda for Python 3.7 from [here](https://docs.conda.io/en/latest/miniconda.html)
-2. Execute the downloaded installer, and follow the instructions. 
-It will ask you where to put conda (Default is `$HOME`).
+1. Download `Miniconda` (a free minimal version of Anaconda) for Python 3.7 from [here](https://docs.conda.io/en/latest/miniconda.html). Remember to choose `Python3` (3.7) and the correction installer for your operating system.
+2. Execute the downloaded installer, and follow the instructions to install.
+It will ask you where to put conda (Default is `$HOME`). After the installation, `conda` command can be called in shell (for Mac / Linux). For Windows, you can find `anaconda prompt` from your start menu to open a shell environment.
 3. Clone the current repository to a directroy, for example `$HOME/JS2020`.
 
 ```
