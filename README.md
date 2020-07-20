@@ -26,6 +26,7 @@ Now `ls` and you should see the downloaded folder `ModelData/`.
 conda env create -f environment.yml 
 ```
 This should create a virtual environment called `trento-bayes`. You can check if it exists and its location by `conda env list`. The required libraries are installed in this environment (these libraries are listed in `environment.yml`, except for `emcee` package, which is listed in the `pip` `requirements.txt`). If you want to delete this environment after the lecture, you can do `conda env remove -n <name-of-environment>`.
+
 6. To activate the environment 
 ```
 conda activate trento-bayes 
