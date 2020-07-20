@@ -14,9 +14,10 @@ It will ask you where to put conda (Default is `$HOME`). After the installation,
 ```
 mkdir $HOME/JS2020 && cd $HOME/JS2020 git clone https://github.com/keweiyao/JETSCAPE2020-TRENTO-BAYES.git 
 ```
-Using the script postBuild to down the date files  
+Using the script `postBuild` to down the date files  
 ```
-cd $HOME/JS2020/JETSCAPE2020-TRENTO-BAYES bash postBuild 
+cd $HOME/JS2020/JETSCAPE2020-TRENTO-BAYES 
+bash postBuild 
 ```
 4. Create conda virtual environment.
 ```
