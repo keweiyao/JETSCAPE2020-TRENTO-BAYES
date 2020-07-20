@@ -19,6 +19,8 @@ mkdir $HOME/JS2020 && cd $HOME/JS2020 git clone https://github.com/keweiyao/JETS
 cd $HOME/JS2020/JETSCAPE2020-TRENTO-BAYES 
 bash postBuild 
 ```
+Now `ls` and you should see the downloaded folder `ModelData/`.
+
 5. Create conda virtual environment.
 ```
 conda env create -f environment.yml 
