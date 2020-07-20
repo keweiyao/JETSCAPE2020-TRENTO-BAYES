@@ -3,7 +3,7 @@
 ## Prerequisite and Installation
 
 These examples run with `python3` on a `Jupyter Notebook`. It *does not* require docker.
-We provided two options to either install the dependencies using [Anaconda](https://www.anaconda.com/) or simply run the code from an online session supported by [Binder](https://mybinder.org/).
+We provided two options to either install the dependencies using [Anaconda](https://www.anaconda.com/) (recommended) or simply run the code from an online session supported by [Binder](https://mybinder.org/).
 
 ### Option 1. Conda virtual environment (recommended)
 
@@ -41,6 +41,8 @@ From the prompt of the browser, click and open the file `trento-bayes.ipynb`
 Then you are good to go!
 
 ### Option 2. Using online Binder environment
+
+Make sure you have fast and stable internet connection if you choose this option.
 
 This Binder environment holds online session of interactive `Jupyter notebook`. 
 Simple check the following link and wait for the environment to build and load.
