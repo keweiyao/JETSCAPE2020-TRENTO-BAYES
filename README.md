@@ -2,7 +2,7 @@
 
 ## Prerequisite and Installation
 
-These examples run with `python3` on a `Jupyter Notebook`. 
+These examples run with `python3` on a `Jupyter Notebook`. It *does not* require docker.
 We provided two options to either install the dependencies using [Anaconda](https://www.anaconda.com/) or simply run the code from an online session supported by [Binder](https://mybinder.org/).
 
 ### Option 1. Conda virtual environment (recommended)
