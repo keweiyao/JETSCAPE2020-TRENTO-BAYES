@@ -1,11 +1,11 @@
-# JETSCAPE2020-TRENTO-BAYES
+# TRENTo/Bayesian Analysis for the JETSCAPE Online Summer School 2020.
 
 ## Prerequisite and Installation
 
 These examples run with `python3` on a `Jupyter Notebook`. It *does not* require docker.
 We provided two options to either install the dependencies using [Anaconda](https://www.anaconda.com/) (recommended) or simply run the code from an online session supported by [Binder](https://mybinder.org/).
 
-### Option 1. Conda virtual environment (recommended)
+### Option 1. Conda Virtual Environment (Recommended)
 
 1. Download `Miniconda` (a free minimal version of Anaconda) for Python 3.7 from [here](https://docs.conda.io/en/latest/miniconda.html). Remember to choose `Python3` (3.7) and the corrected installer for your operating system.
 
@@ -48,7 +48,7 @@ From the prompt of the browser, click and open the file `trento-bayes.ipynb`
 8. Move to the first block, press `Shift+Enter` to see if you can run the first two or three blocks successfully. 
 Then you are good to go!
 
-### Option 2. Using online Binder environment
+### Option 2. Use Online Binder Environment
 
 This Binder environment holds online session of interactive `Jupyter notebook`. 
 Simple check the following link and wait for the environment to build and load.
@@ -59,7 +59,7 @@ The disadvantages:
 2. Require fast and stable internet connection. Once you lost connection, you will need to restart.
 3. The computational power of the binder server is limited. So for some examples with significant amount of computation, the computing time can be too long for the lecture. Therefore, I also uploaded pre-calculated results for these examples that you can simply load and study.
 
-## Materials from previous JETSCAPE Schools.
+## Materials from Previous JETSCAPE Schools.
 
 If you have time, you are encouraged to checkout materials from eariler JETSCAPE schools.
 
