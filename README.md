@@ -58,3 +58,16 @@ The disadvantages:
 1. The initial build of the image make take ~ 5 mins.
 2. Require fast and stable internet connection. Once you lost connection, you will need to restart.
 3. The computational power of the binder server is limited. So for some examples with significant amount of computation, the computing time can be too long for the lecture. Therefore, I also uploaded pre-calculated results for these examples that you can simply load and study.
+
+## Materials from previous JETSCAPE Schools.
+
+If you have time, you are encouraged to checkout materials from eariler JETSCAPE schools.
+
+1. JETSCAPE Winter School & Workshop 2018.
+[Lecture-1](https://indico.bnl.gov/event/3958/contributions/12067/attachments/10945/13352/WS_Statistics_Theory.pdf) and 
+[Lecture-2](https://indico.bnl.gov/event/3958/contributions/12064/attachments/10943/13350/WS_Exercise_Pres.pdf).
+[Hands-on](https://sites.google.com/a/lbl.gov/jetscape2018/home/school-material/school-preparation).
+
+2. 2nd JETSCAPE Winter School and Workshop 2019
+[Lecture](https://indico.bnl.gov/event/5031/contributions/25828/attachments/21430/29220/WS_Theory_Exercises.pdf).
+[Hands-on](https://indico.bnl.gov/event/5031/page/115-school-material) under section `School preparation - Statistical Analysis`.
