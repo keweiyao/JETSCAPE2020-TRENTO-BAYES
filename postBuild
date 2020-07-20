@@ -1,4 +1,5 @@
 #!/bin/bash
+pip install emcee
 wget --no-check-certificate https://webhome.phy.duke.edu/~wk42/jetscape/data.tar.gz
 tar -xzf data.tar.gz
 
